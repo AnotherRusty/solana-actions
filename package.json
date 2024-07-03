@@ -1,0 +1,31 @@
+{
+  "name": "@dialectlabs/actions",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dialectlabs/actions"
+  },
+  "scripts": {
+    "dev": "tsx watch examples/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.3",
+    "@hono/swagger-ui": "^0.3.0",
+    "@hono/zod-openapi": "^0.14.5",
+    "@jup-ag/api": "^6.0.23",
+    "@solana/web3.js": "^1.91.8",
+    "@solana/actions": "^1.0.2",
+    "sanctum-lst-list": "^0.2.13",
+    "@solana/spl-token-registry": "^0.2.4574",
+    "@mercurial-finance/dynamic-amm-sdk": "^0.4.23",
+    "mathjs": "^13.0.0",
+    "hono": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/bn.js": "^5.1.5",
+    "tsx": "^4.7.1",
+    "prettier": "^3.3.2"
+  }
+}
